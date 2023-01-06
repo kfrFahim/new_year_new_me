@@ -14,7 +14,7 @@ body{
 
 .header_container{
      width: 100%;
-     height: 590px;
+     height: 680px;
      background-image: url(../images/banner/banner3.png);
      background-repeat: no-repeat;
      background-size:cover;
@@ -28,7 +28,7 @@ body{
      position: absolute;
      width: 90%;
      text-align: right;
-     margin-top: 130px;
+     margin-top: 100px;
 }
 
 .header_title h1{
@@ -58,7 +58,7 @@ body{
 
 /* Main Section */
 main{
-     max-width: 1072px;
+     max-width: 90%;
      margin: 0 auto;
 }
 /* Image Decription */
@@ -97,3 +97,33 @@ main{
      content: '✓ ';
      color: #16D887;
    }
+
+/* My Plan Section */
+
+.my_plan_container{
+     margin: 0 auto;
+     margin-top: 80px;
+     text-align: center;
+}
+
+.my_plan_container h1{
+     text-align: center;
+     font-weight: 700;
+     font-size: 40px;
+     color: #151414;
+     margin-bottom: 50px;
+}
+
+.plan_item_wrap{
+     display: flex;
+     justify-content: space-between;
+     padding: 20px;
+}
+
+
+.plan_item p{
+     font-size: 18px;
+     text-align: center;
+     color: #737272;
+}
+
