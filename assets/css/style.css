@@ -89,11 +89,11 @@ main{
      margin-bottom: 20px;
 }
 
-.image_title ul {
+.list_item {
      list-style: none;
    }
    
-   ul li:before {
+.list_item li:before {
      content: '✓ ';
      color: #16D887;
    }
@@ -101,6 +101,7 @@ main{
 /* My Plan Section */
 
 .my_plan_container{
+     width: 90%;
      margin: 0 auto;
      margin-top: 80px;
      text-align: center;
@@ -126,4 +127,100 @@ main{
      text-align: center;
      color: #737272;
 }
+
+/* Banner Section */
+
+.banner_container{
+     width: 90%;
+     height: 280px;
+     margin: 0 auto;
+     background-image: url(../images/gradient1.png) , url(../images/watch.png);
+     background-size: cover;
+     padding: 20px;
+     margin-top: 100px;
+     
+}
+
+.banner-wrap{
+     margin: 90px 40px;
+}
+
+.banner-wrap h2{
+     font-weight: 700;
+     font-size: 40px;
+     line-height: 47px;
+     color: #FFFFFF;
+}
+
+/* Footer */
+
+.footer{
+     height: 400px;
+     background-color: #1E1E1E;
+     margin-top: 70px;
+     padding: 40px;
+}
+
+.footer_container{
+    width: 80%;
+    margin: 0 auto ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.footer_info_wrap{
+     margin-top: 70px;
+     margin-left: 50px;
+}
+
+.footer_info_wrap h2{
+     font-weight: 700;
+     font-size: 45px;
+     color: #F8F8F8;
+}
+
+.footer_info_wrap p{
+     font-size: 16px;
+     line-height: 26px;
+     color: #FFFFFF;
+     margin-bottom: 20px;
+}
+.icon_list{
+     display: flex;
+     list-style: none;       
+}
+
+.icon_list li{
+     margin-right: 40px;
+}
+
+.footer_subscribe_wrap{
+     font-weight: 600;
+     font-size: 25px;
+     line-height: 29px;
+     color: #FFFFFF;
+     
+}
+
+.footer_subscribe_wrap input{
+     width: 325px;
+     height: 54px;
+     font-size: 20px;
+     background-color: #151414;
+     border: 1px solid #FFFFFF;
+     border-radius: 8px;
+     color: #F3F3F3;
+     padding: 10px;
+     margin-top: 20px;
+     
+}
+
+.footer_btn{
+     background-color: #005FAC;
+     color: #FFFFFF;
+}
+
+
 
